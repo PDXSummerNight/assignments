@@ -1,0 +1,12 @@
+body{
+	background-color: rgba(144, 238, 144, .5);
+}
+
+h2{
+	color: hsl(226, 80%, 20%);
+}
+
+#corgiSunset{
+	max-height: 20%;
+
+}
