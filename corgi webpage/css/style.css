@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	margin: 0;
 	padding: 0;
@@ -43,3 +44,8 @@ ul > li {
 	display: inline-block;
 	text-decoration: none;
 }
+=======
+img {
+	width: 300px;
+}
+>>>>>>> 128d39d... Add images and file structure
