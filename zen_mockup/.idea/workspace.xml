@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="134e660a-227f-4303-88b2-5e1295c57b1f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zen_mockup.html" afterPath="$PROJECT_DIR$/zen_mockup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zen_style.css" afterPath="$PROJECT_DIR$/zen_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../corgi_info.html" afterPath="$PROJECT_DIR$/../corgi_info.html" />
     </list>
     <ignored path="zen_mockup.iws" />
     <ignored path=".idea/workspace.xml" />
