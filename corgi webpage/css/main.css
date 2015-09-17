@@ -1,12 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
 body{
-	background-color: rgba(144, 238, 144, .5);
+	background-color: rgba(221, 241, 252, .7);
+}
+
+h1{
+	color: #000;
+	
 }
 
 h2{
-	color: hsl(226, 80%, 20%);
+	color: #14316b;
 }
 
-#corgiSunset{
-	max-height: 20%;
-
+img {
+	border: 4px double #eb776a;
+	display: block;
+	margin: 0 auto;
 }
+
+div p{
+	background-color: #b3d96c;
+}
+
+.corgiSunset{
+	width: 600px;
+	border-radius: 50%;
+	border-style: solid;
+}
+
+
