@@ -1,7 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
+@import url(http://fonts.googleapis.com/css?family=Work+Sans);
+
+
 
 h1, h2, h3 {
-	font-family: 'Nova Square', cursive;
-	color:white;
+	font-family: Nova Square, cursive;
+	color: #e23045;
+}
 
+body {
+    background-color: #eee;
+    font-size: 100%
+}
+
+p,a {
+    font-family: "Work Sans";
+}
+
+h3 {
+    background-color: #1B4549;
+    color: #fcead6
+}
+
+h1 {
+    font-size: 200%
 }
