@@ -1,0 +1,22 @@
+body {
+  background-color: #fbec5b;
+}
+body h1{
+  color: #030009;
+
+}
+
+body p{
+  color: #7f170c;
+  border: solid 2px orange;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.sunset {
+
+  border-radius: 50%;
+}
