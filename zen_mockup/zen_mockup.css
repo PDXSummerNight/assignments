@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Nova+Square);
+@import url(http://fonts.googleapis.com/css?family=Work+Sans);
+
+body{
+	background-color: #eee;
+	font-size: 100%;
+}
+/*Making everything a differnt font*/
+
+h2, h3 , h1{
+	font-family: 'Nova Square', cursive;
+}
+
+/*changing fonts*/
+p, a{
+	font-family: 'Work Sans', sans-serif;
+}
+
+/*for every link with an immediate parent of p change color and get rid of underline*/
+p>a{
+	color: #E12E43;
+	text-decoration: none;
+}
+
+/*changing color and width for the first header*/
+h1{
+	margin: 3% 18%;
+	color:#E23045;
+	font-size: 65px;
+	margin-bottom: 0;
+	min-width: 637px;
+
+}
+
+/*Changing font size*/
+@media only screen and (max-width: 1200px){
+    h1 {
+        font-size: 36px;
+    }
+    aside {
+    	
+    }
+}
+
+/*Changing the width adding and background color to the second header*/
+h2{
+	width: 63%;
+	margin: 1% 19% 10px 18%;
+	font-size: 33px;
+	background-color: #E23045;
+	border-radius: 4px;
+	text-align: left;
+	color:#FCEAD6;
+	min-width: 637px;
+	padding:0 2px;
+
+}
+
+/*changing the color and size for the third header that's preceded by a div*/
+section~h3{
+	font-size: 25%;
+	padding-left: 4%;
+	margin-bottom: 2%; 
+	color:#FCEAD6;
+
+}
+
+/*The first article*/
+section article{
+	width: 62%;
+	overflow: scroll;
+	color: #FCEAD6;
+	margin: 1% 2% 10% 18%;
+	padding: 12px;
+	background-color: #1B4549;
+	border-radius: 4px;
+	box-shadow: 40px 30px 0 #7AB3B0;
+	min-width: 637px
+
+}
+
+/*Placement, color and shodow for all articles*/
+article{
+	padding: 22px;
+	color:black;
+	background-color:#FFF6E0;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #373531;
+	box-shadow: 44px 37px 0 #7AB3B0;
+	overflow: scroll;
+	min-width: 377px;
+
+}
+
+/*Making  firstthe article in main a in-lineblock and making the margin*/
+main article{
+	margin: -70px 48% 37% 96%;
+}
+/*The second aricle */
+.participation{
+	margin-top: -70px;
+}
+
+/*Making it in-line and adding the placement, color and shadow*/
+footer>a{
+	display: inline;
+	padding: 5px;
+	margin: 23px -522px 825px 535px;
+	border-radius: 2px;
+	color:#FFF6E0;
+	background-color: #908673;
+	text-decoration: none;
+	box-shadow: 10px 15px 0 #D8CFBC;
+
+}
+
+
+/*Placement of links, color and shadow*/
+li{
+	vertical-align: top;
+	display: inline-block;
+	list-style: none;
+	background-color: #E23045;
+	margin: 2px 0px 3px 69%;
+	padding: 10px;
+	width: 29%;
+	border-radius: 1px;
+	box-shadow: 10px 15px 0 #F59581;
+}
+
+/*Getting rid of underline and changing the colors of the links*/
+li>a{
+	text-decoration: none;
+	color: #FFF6E0;
+}
+
+/*placement and making the articles inline blocks*/
+main{
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}
+
+/*Making the sidebar header not show*/
+.resources{
+	display: none;
+}
+
+/*Placement for sidebar*/
+aside{
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+    margin-top: -47px;
+}
+
+
+aside li{
+	margin-bottom: 24px;
+
+}
+
+/*Making the page be able to shrink and adding a min width*/
+.page-wrapper{
+    margin-left: 11.5%;
+    margin-right: 14.5%;
+    margin-top: 7.8%;
+    margin-bottom: 46px;
+    min-width: 1000px
+}
