@@ -1,7 +1,46 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
 
+*{
+	width: 700px;
+}
+
 h1, h2, h3 {
 	font-family: 'Nova Square', cursive;
 	color:white;
-
 }
+
+h1{
+	color:red;
+}
+
+h2{
+	border:solid red;
+	background-color:red;
+}
+
+.preamble{
+	border:solid black;
+	background-color: black;
+	box-shadow: 30px 30px #4682b4;
+}
+
+.preamble p{
+	color: white;
+}
+
+.explanation{
+	border: solid #4682b4;
+	margin-top: 10%;
+	background-color: #4682b4;
+}
+
+.participation{
+	border:solid #4682b4;
+	margin-top:2%;
+	background-color: #4682b4;
+}
+
+h3{
+	color:black;
+}
+
