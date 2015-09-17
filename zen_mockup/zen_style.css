@@ -1,46 +1,148 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
 
-*{
-	width: 700px;
-}
+
 
 h1, h2, h3 {
 	font-family: 'Nova Square', cursive;
-	color:white;
+	color:#FFF5E0;
+	
 }
 
 h1{
 	color:red;
+	font-size: 285%;
+	font-weight:bold;
+	margin-left: 200px;
 }
 
 h2{
 	border:solid red;
 	background-color:red;
+	width:681px;
+	margin-top: -20px;
+	margin-left: 200px;
 }
 
 .preamble{
 	border:solid black;
-	background-color: black;
-	box-shadow: 30px 30px #4682b4;
+	border-width: 1px;
+	background-color: #004C4C;
+	box-shadow: 30px 30px #33ADAD;
+	width:675px;
+	display:block;
+	margin-left: 200px;
+	padding-left: 10px;
 }
 
 .preamble p{
-	color: white;
+	color: #FFF5E0;
+	display:block;
+}
+
+.preamble h3{
+	color:#FFEBC2;
+	display:block;
 }
 
 .explanation{
-	border: solid #4682b4;
-	margin-top: 10%;
-	background-color: #4682b4;
+	border: solid black;
+	border-width: 1px;
+	margin-top: 45px;
+	background-color: #FFF5E0;
+	box-shadow:30px 30px #33ADAD;
+	width:391px;
+	display:block;
+	margin-left: 200px;
+	padding-left: 15px;
+	padding-right: 10px;
+
 }
 
 .participation{
-	border:solid #4682b4;
-	margin-top:2%;
-	background-color: #4682b4;
+	border:solid black;
+	border-width: 1px;
+	margin-top:12px;
+	background-color: #FFF5E0;
+	box-shadow:30px 30px #33ADAD;
+	width:391px;
+	display:block;
+	margin-left: 200px;
+	padding-left: 15px;
+	padding-right: 10px;
 }
 
 h3{
 	color:black;
 }
+
+li{
+	vertical-align: top;
+	border:solid red;
+	background-color: red;
+	border-width: 1px;
+	display: inline-block;
+	margin-bottom:0px;
+	margin-right: 3px;
+	margin-left: 53%;
+	padding:1px;
+	box-shadow: 10px 10px #FFB894;
+	width:180px;
+	text-align: center;
+}
+
+.view-css{
+	margin-top: -870px 
+}
+
+.css-resources{
+	margin-top: -860px 
+}
+
+.zen-faq{
+	margin-top: -850px 
+}
+
+.zen-submit{
+	margin-top: -840px;
+}
+
+.zen-translations{
+	margin-top: -830px 
+}
+
+a:link{
+	color:#FFF5E0;
+	text-decoration: none;
+}
+
+a:visited{
+	color:#FFF5E0;
+}
+
+.participation a:link{
+	color:red;
+}
+
+footer{
+	display:block;
+	margin-top: 40px;
+	margin-left: 500px;
+}
+
+.zen-validate-html, .zen-validate-css{
+	border:solid;
+	padding:2px;
+	border-color: #998D74;
+	border-radius: 2px;
+	background-color: #998D74;
+	box-shadow: 10px 15px #E6D4AF;
+}
+
+.resources{
+	color:white;
+}
+
+
+
+
 
