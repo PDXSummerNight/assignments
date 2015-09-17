@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: 4B596E;
+}
+
+h1,h3{
+	color:F3813E;
+	text-align: center;
+	margin:5px;
+}
+
+p{
+	color:E9AD7D;
+	margin:10px;
+}
+
+img{
+	display:block;
+	margin:0 auto;
+	border:solid;
+	border-color:white;
+	box-shadow: 5px 5px 2px 2px gray
+}
