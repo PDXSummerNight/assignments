@@ -1,10 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/*border: 1px solid red;*/
 }
+
 body {
 	background-color: #EEE;
 }
@@ -12,6 +13,13 @@ body {
 .page-wrapper {
 	padding: 150px;
 }
+
+.wrapper {
+	margin 0 auto;
+}
+
+/* HEADINGS ------------------------------------------ */
+
 h1, h2, h3 {
 	font-family: 'Nova Square', cursive;
 	color:white;
@@ -37,6 +45,8 @@ h3.resources {
 	display: none;
 }
 
+/* PREAMBLE ------------------------------------------------*/
+
 .preamble {
 	background-color: #004444;
 	color: white;
@@ -49,6 +59,8 @@ h3.resources {
 .preamble p {
 	padding: 5px;
 }
+
+/* FOOTER --------------------------------------------------*/
 
 footer {
 	width: 100%;
@@ -68,6 +80,7 @@ footer a {
 	text-decoration: none;
 }
 
+/* MAIN ----------------------------------------------------*/
 
 main {
 	color: black;
@@ -87,6 +100,14 @@ main {
 	width: 60%;
 }
 
+aside {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+/* ARTICLE-RELATED ------------------------------------*/
+
 main article {
 	padding: 20px;
 	background-color: #FFFDFA;
@@ -99,22 +120,17 @@ article~article {
 	margin-top: 15px;
 }
 
-aside {
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
+
+article p {
+	margin-bottom: 15px;
 }
 
-/*aside, aside * {
-	border: 1px solid red;
-}*/
-
-.wrapper {
-	/*display: inline-block;*/
-	margin 0 auto;
-	/*border: 1px solid blue;*/
+article a {
+	color: #DD1133;
+	text-decoration: none;
 }
 
+/* LIST-RELATED ----------------------------------*/
 .zen-resources ul {
 	list-style: none;
 }
@@ -131,12 +147,4 @@ li {
 li a {
 	text-decoration: none;
 	color: #FFF;
-}
-
-article p {
-	margin-bottom: 15px;
-}
-article a {
-	color: #DD1133;
-	text-decoration: none;
 }
