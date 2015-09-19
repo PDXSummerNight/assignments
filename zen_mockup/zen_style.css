@@ -16,12 +16,6 @@ body {
 	width: 690px;
 }
 
-article {
-	box-shadow: 40px 50px 0 0 #71AEAB;
-}
-
-/* TEXT */
-
 h1, h2, h3 {
 	font-family: 'Nova Square', cursive;
 }
@@ -52,7 +46,11 @@ a {
 	color: #E23045;
 }
 
-/* INTRO */ 
+article {
+	box-shadow: 40px 50px 2px 2px #71AEAB;
+}
+
+/* intro */ 
 
 .preamble {
 	background-color: #1B4549;
@@ -65,7 +63,7 @@ a {
 	color: #FFF6E0;
 }
 
-/* MAIN */
+/* main */
 
 main {
 	display: inline-block;
@@ -79,25 +77,7 @@ main article {
 	margin-bottom: 10px;
 }
 
-/* FOOTER */
-
-footer a {
-	display: inline-block;
-	background-color: #908673;
-	padding: 5px;
-	box-shadow: 5px 5px 0 0 #D8CFBC;
-}
-
-footer a, aside a {
-	text-decoration: none;
-	color: #FFF6E0;
-}
-
-footer a {
-	text-align: right;
-}
-
-/* ASIDE */
+/* sidebar */
 
 aside {
 	display: inline-block;
@@ -109,19 +89,20 @@ aside h3 {
 	display: none;
 }
 
-aside a {
-	display: block;
-}
-
 ul {
 	padding-left: 60px;
-	text-align: center;
 }
 
 li {
 	background-color: #E23045;
 	list-style-type: none;
 	padding: 5px;
-	margin: 0 0 5px 0;
-	box-shadow: 5px 5px 0 0 #F59581;
+	margin: 0 0 3px 0;
+	box-shadow: 5px 5px 2px 0px #F59581;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: #FFF6E0;
 }
