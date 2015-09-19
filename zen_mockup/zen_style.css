@@ -1,7 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
 @import url(http://fonts.googleapis.com/css?family=Work+Sans);
 
+.explanation {
+    background: #FFF6E0;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #FFF6E0;
+}
 
+.participation { background: #FFF6E0;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #FFF6E0;
+
+}
+.preamble {
+    background: #1B4549;
+    border-style: solid;
+    border-color: #1B4549;
+    border-radius: 5px;
+    color: #fcead6;
+    
+}
 
 h1, h3 {
 	font-family: Nova Square, cursive;
@@ -10,7 +30,7 @@ h1, h3 {
 
 h2 {
     font-family: Nova Square, cursive;
-    color: #fcead6;
+    color: #FFF6E0;
     background-color: #e23045;
 }
 
@@ -23,11 +43,10 @@ p,a {
     font-family: "Work Sans";
 }
 
-h3 {
-    background-color: #1B4549;
-    color: #fcead6
-}
-
 h1, h2 {
     font-size: 24pt
+}
+
+h3 {
+    color: #000;
 }
