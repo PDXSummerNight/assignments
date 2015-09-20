@@ -1,52 +1,101 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
 @import url(http://fonts.googleapis.com/css?family=Work+Sans);
 
-/*Mini CSS Zen Garden text*/
-.intro {
-
-    font-size: 100%;
-    font-family: 'Nova Square', cursive;
-    color: #E23045;
+.page-wrapper {
+    margin: 170px 180px 160px 170px;
 }
 
+/*Mini CSS Zen Garden text and The beauty of CSS design*/
+.intro {
+    display: block;
+    font-size: 100%;
+    font-family: 'Nova Square', cursive;
+    color: #fcead6;
+    width: 75%;
+    min-width: 377px;
+}
+.intro p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*The road to enlightenment paragraph*/
 .preamble {
+    display: block;
     background: #1B4549;
     border-style: solid;
     border-color: #1B4549;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #fcead6;
+    margin-bottom: 50px;
+    padding: 22px;
+    min-width: 377px;
 }
-
+/*So what is this about block*/
 .explanation {
+    font-family: 'Work Sans', sans-serif;
+    display: block;
     background: #FFF6E0;
     border-style: solid;
-    border-radius: 5px;
-    border-color: #FFF6E0;
+    border-radius: 4px;
+    border-color: #000;
+    margin: 50px 50px 50px 50px;
+    padding: 22px;
+    border-width:1px;
+    width: 50%;
+    min-width: 377px;
+
 }
 
-.participation { background: #FFF6E0;
+.explanation h3{
+    font-family: 'Nova Square', cursive;
+
+}
+
+/*Participation block*/
+.participation {
+    display: block;
+    margin: 50px 50px 50px 50px;
+    background: #FFF6E0;
     border-style: solid;
-    border-radius: 5px;
-    border-color: #FFF6E0;
+    border-radius: 4px;
+    border-color: #000;
+    border-width: 1px;
+    width: 50%;
+    min-width: 377px;
+    padding: 22px;
+
 }
 
+/*This is where I change "So what is this about to Nova Square*/
+.participation h3{
+    font-family: 'Nova Square', cursive;
+}
+
+.participation p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*This where I change Mini CSS to red*/
 h1 {
+    color: #E23045;
     font-size: 72px;
 }
 
 h2 {
+    padding: 5px;
+    display:block;
     font-family: Nova Square, cursive;
-    color: #FFF6E0;
     background-color: #e23045;
+    border-radius: 5px;
 }
+
 
 body {
     background-color: #eee;
     font-size: 12pt
 }
 
-p,a {
-    font-family: "Work Sans";
-}
+
 
 
