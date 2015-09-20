@@ -1,35 +1,69 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
 @import url(http://fonts.googleapis.com/css?family=Work+Sans);
 
-.page-wrapper {
-    margin: 170px 180px 160px 170px;
+.page-wrapper{
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: -25%;
+    vertical-align: top;
+
 }
 
 /*Mini CSS Zen Garden text and The beauty of CSS design*/
 .intro {
-    display: block;
+    display: inline-block;
     font-size: 100%;
     font-family: 'Nova Square', cursive;
     color: #fcead6;
-    width: 75%;
+    width: 712px;
     min-width: 377px;
+    vertical-align: top;
+
 }
-.intro p {
-    font-family: 'Work Sans', sans-serif;
+.intro h1{
+    color: #E23045;
+    font-size: 64px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    vertical-align: top;
 }
+.intro h2 {
+    font-size: 34px;
+    display: block;
+    font-family: Nova Square, cursive;
+    background-color: #e23045;
+    border-radius: 5px;
+    padding: 1px;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-bottom: 10px;
+
+}
+
+
+
 
 
 /*The road to enlightenment paragraph*/
 .preamble {
-    display: block;
+    display: inline-block;
     background: #1B4549;
     border-style: solid;
-    border-color: #1B4549;
+    border-color: #000000;
     border-radius: 4px;
     color: #fcead6;
-    margin-bottom: 50px;
-    padding: 22px;
+    padding: 15px;
     min-width: 377px;
+    text-align: left;
+    vertical-align: top;
+    overflow: scroll;
+    box-shadow: #7AB3B0;
+    border-width: 1px;
+}
+.preamble p {
+    font-family: 'Work Sans', sans-serif;
+    vertical-align: top;
+
 }
 /*So what is this about block*/
 .explanation {
@@ -39,11 +73,14 @@
     border-style: solid;
     border-radius: 4px;
     border-color: #000;
-    margin: 50px 50px 50px 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
     padding: 22px;
     border-width:1px;
-    width: 50%;
+    width: 450px;
     min-width: 377px;
+    box-sizing: border-box;
+    overflow: scroll;
 
 }
 
@@ -55,15 +92,18 @@
 /*Participation block*/
 .participation {
     display: block;
-    margin: 50px 50px 50px 50px;
     background: #FFF6E0;
     border-style: solid;
     border-radius: 4px;
     border-color: #000;
     border-width: 1px;
-    width: 50%;
-    min-width: 377px;
+    width: 450px;
+    min-width: 150px;
     padding: 22px;
+    box-sizing: border-box;
+    margin-bottom: 75px;
+    margin-top: 10px;
+    overflow: scroll;
 
 }
 
@@ -75,21 +115,6 @@
 .participation p{
     font-family: 'Work Sans', sans-serif;
 }
-
-/*This where I change Mini CSS to red*/
-h1 {
-    color: #E23045;
-    font-size: 72px;
-}
-
-h2 {
-    padding: 5px;
-    display:block;
-    font-family: Nova Square, cursive;
-    background-color: #e23045;
-    border-radius: 5px;
-}
-
 
 body {
     background-color: #eee;
