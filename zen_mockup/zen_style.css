@@ -23,12 +23,16 @@ h2{
 	margin-left: 200px;
 }
 
+.intro{
+	width: 675px;
+}
+
 .preamble{
+	width:675px;
 	border:solid black;
 	border-width: 1px;
 	background-color: #004C4C;
 	box-shadow: 30px 30px #33ADAD;
-	width:675px;
 	display:block;
 	margin-left: 200px;
 	padding-left: 10px;
@@ -50,7 +54,7 @@ h2{
 	margin-top: 45px;
 	background-color: #FFF5E0;
 	box-shadow:30px 30px #33ADAD;
-	width:391px;
+	width:393px;
 	display:block;
 	margin-left: 200px;
 	padding-left: 15px;
@@ -64,7 +68,7 @@ h2{
 	margin-top:12px;
 	background-color: #FFF5E0;
 	box-shadow:30px 30px #33ADAD;
-	width:391px;
+	width:393px;
 	display:block;
 	margin-left: 200px;
 	padding-left: 15px;
@@ -74,40 +78,81 @@ h2{
 h3{
 	color:black;
 }
-
-li{
-	vertical-align: top;
-	border:solid red;
-	background-color: red;
-	border-width: 1px;
-	display: inline-block;
-	margin-bottom:0px;
-	margin-right: 3px;
-	margin-left: 53%;
-	padding:1px;
-	box-shadow: 10px 10px #FFB894;
-	width:180px;
-	text-align: center;
-}
-
 .view-css{
-	margin-top: -870px 
+
+	width:180px;
+	list-style-type: none;
+	padding:1px;
+	border:solid;
+	border-color: red;
+	background-color: red;
+	margin-top: 25px;
+	margin-bottom:5px;
+	box-shadow: 10px 10px #FFB894;
+	
 }
 
 .css-resources{
-	margin-top: -860px 
+	border:solid;
+	width:180px;
+	list-style-type: none;
+	padding:1px;
+	border:solid;
+	border-color: red;
+	background-color: red;
+	margin-bottom:5px;
+	box-shadow: 10px 10px #FFB894;
+	
+
+	
 }
 
 .zen-faq{
-	margin-top: -850px 
+	border:solid;
+	width:180px;
+	list-style-type: none;
+	padding:1px;
+	border:solid;
+	border-color: red;
+	background-color: red;
+	margin-bottom:5px;
+	box-shadow: 10px 10px #FFB894;
+	
 }
 
 .zen-submit{
-	margin-top: -840px;
+	border:solid;
+	width:180px;
+	list-style-type: none;
+	padding:1px;
+	border:solid;
+	border-color: red;
+	background-color: red;
+	margin-bottom:5px;
+	box-shadow: 10px 10px #FFB894;
+	
 }
 
 .zen-translations{
-	margin-top: -830px 
+	border:solid;
+	width: 180px;
+	list-style-type: none;
+	padding:1px;
+	border:solid;
+	border-color: red;
+	background-color: red;
+	margin-bottom:5px;
+	box-shadow: 10px 10px #FFB894;
+	
+}
+.sidebar{
+	display: inline-block;
+	vertical-align: top;
+	margin-top:-855px;
+	margin-left: 640px;
+	width:190px;
+	font-size: 15px;
+	text-align: center;
 }
 
 a:link{
@@ -125,8 +170,9 @@ a:visited{
 
 footer{
 	display:block;
+	width:100px;
 	margin-top: 40px;
-	margin-left: 500px;
+	margin-left: 510px;
 }
 
 .zen-validate-html, .zen-validate-css{
@@ -139,7 +185,7 @@ footer{
 }
 
 .resources{
-	color:white;
+	color:#33ADAD;
 }
 
 
