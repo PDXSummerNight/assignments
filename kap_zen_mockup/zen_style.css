@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Nova+Square);
+
+body{
+	margin: 0;
+	background-color: #eee;
+}
+.page-wrapper{
+	max-width: 60%;
+	padding-left: 10%;
+	margin: 0 auto 5em;
+}
+
+h1, h2, h3 {
+	font-family: 'Nova Square', cursive;
+	color:#E23045;
+}
+
+h1{
+	font-size: 4em;
+	max-width: 75%;
+	margin: 2em 0 0 0;
+
+}
+
+header h2{
+	background-color: #E23045;
+	color: #FCEAD6;
+	border-radius: 3px;
+	padding: .15em;
+	font-size: 2em;
+}
+
+.intro{
+	max-width: 80%;
+}
+
+.preamble{
+	background-color: #1B4549;
+	color: #fcead6;
+	padding: 1em .5em;
+	border-radius: 3px;
+	box-shadow: 40px 20px #7AB3B0;
+}
+
+.preamble h3 {
+	color: #FCEAD6;
+}
+
+.main{
+	max-width: 50%;
+}
+.main article{
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #FFF6E0;
+	margin: 2em .25em;
+	padding: 1em 1em;
+	box-shadow: 40px 20px #7AB3B0;
+}
+
+.main article h3{
+	color: black;
+}
+
+a{
+	color: #E23045;
+}
+
+footer{
+	text-align: right;
+}
+
+footer a{
+	color: #FFF6E0;
+	text-decoration: none;
+	background-color: #908673;
+	padding: 5px;
+	border-radius: 3px;
+	box-shadow: 10px 10px #D8CFBC;
+	margin-left: .75em;
+}
+
+.resources{
+	color: #eee;
+}
+
+ul li{
+	list-style: none;
+	background-color: #E23045;
+	margin: 1em 0;
+	padding: .5em;
+	box-shadow: 10px 10px #F59581;
+}
+
+li a{
+	color: #FFF6E0;
+	text-decoration: none;
+}
+
+.sidebar{
+	max-width: 40%;
+	margin-left: 60%;
+	margin-top: -135%;
+}
