@@ -13,12 +13,16 @@ body {
 .page-wrapper {
 	display: block;
 	margin: 0 auto;
-	width: 690px;
+	width: 85%;
 	padding-bottom: 80px;
 }
 
 article {
 	box-shadow: 40px 50px 0 0 #71AEAB;
+}
+
+h2, article, footer a {
+	border-radius: 3px;
 }
 
 /* TEXT */
@@ -70,7 +74,6 @@ a {
 
 main {
 	display: inline-block;
-	width: 60%;
 }
 
 main article {
@@ -86,7 +89,7 @@ footer a {
 	display: inline-block;
 	background-color: #908673;
 	padding: 5px;
-	box-shadow: 5px 5px 0 0 #D8CFBC;
+	box-shadow: 10px 15px 0 0 #D8CFBC;
 }
 
 footer a, aside a {
@@ -101,12 +104,6 @@ footer {
 
 /* ASIDE */
 
-aside {
-	display: inline-block;
-	vertical-align: top;
-	width: 39%;
-}
-
 aside h3 {
 	display: none;
 }
@@ -116,7 +113,7 @@ aside a {
 }
 
 ul {
-	padding: 5px 15px 0 60px;
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -127,3 +124,28 @@ li {
 	margin: 0 0 5px 0;
 	box-shadow: 12px 15px 0 0 #F59581;
 }
+
+@media (min-width: 600px) {
+	.page-wrapper {
+		width: 70%;
+		max-width: 800px;
+	}
+}
+
+@media (min-width: 705px) {
+	main {
+		width: 60%;
+	}
+
+	aside {
+		display: inline-block;
+		vertical-align: top;
+		width: 39%;
+	}
+
+	aside ul {
+		margin: 5px auto;
+		padding: 5px 15px 0 60px;
+	}
+}
+
