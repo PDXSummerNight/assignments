@@ -1,15 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
 @import url(http://fonts.googleapis.com/css?family=Work+Sans);
-
+/*Whole page*/
 .page-wrapper{
-    margin-top: 10px;
+    margin-top: 5%;
     margin-left: 25%;
-    margin-right: -25%;
     vertical-align: top;
-
+    min-width: 900px;
 }
-
-/*Mini CSS Zen Garden text and The beauty of CSS design*/
+/*Mini CSS Zen Garden text and The beauty of CSS design Block*/
 .intro {
     display: inline-block;
     font-size: 100%;
@@ -18,15 +16,16 @@
     width: 712px;
     min-width: 377px;
     vertical-align: top;
-
 }
+/*Mini CSS Zen Garden text*/
 .intro h1{
     color: #E23045;
-    font-size: 64px;
-    margin-top: 100px;
+    font-size: 60px;
+    margin-top: 52px;
     margin-bottom: 10px;
     vertical-align: top;
 }
+/*The beauty of CSS text*/
 .intro h2 {
     font-size: 34px;
     display: block;
@@ -37,14 +36,8 @@
     vertical-align: top;
     margin-top: 1px;
     margin-bottom: 10px;
-
 }
-
-
-
-
-
-/*The road to enlightenment paragraph*/
+/*The road to enlightenment block*/
 .preamble {
     display: inline-block;
     background: #1B4549;
@@ -52,20 +45,22 @@
     border-color: #000000;
     border-radius: 4px;
     color: #fcead6;
-    padding: 15px;
+    padding: 10px;
     min-width: 377px;
     text-align: left;
     vertical-align: top;
     overflow: scroll;
-    box-shadow: #7AB3B0;
+    box-shadow: 40px 30px #7AB3B0;
     border-width: 1px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
 }
+/*The road to enlightenment paragraph*/
 .preamble p {
     font-family: 'Work Sans', sans-serif;
     vertical-align: top;
-
 }
-/*So what is this about block*/
+/*"So what is this about" block*/
 .explanation {
     font-family: 'Work Sans', sans-serif;
     display: block;
@@ -74,21 +69,19 @@
     border-radius: 4px;
     border-color: #000;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 22px;
     border-width:1px;
     width: 450px;
     min-width: 377px;
     box-sizing: border-box;
     overflow: scroll;
-
+    box-shadow: 40px 40px #7AB3B0;
 }
-
+/*"So what is this about" text*/
 .explanation h3{
     font-family: 'Nova Square', cursive;
-
 }
-
 /*Participation block*/
 .participation {
     display: block;
@@ -104,22 +97,83 @@
     margin-bottom: 75px;
     margin-top: 10px;
     overflow: scroll;
-
+    box-shadow: 40px 35px #7AB3B0;
 }
 
-/*This is where I change "So what is this about to Nova Square*/
+/*Participation Header text*/
 .participation h3{
     font-family: 'Nova Square', cursive;
 }
-
+/*Participation Paragraph*/
 .participation p{
     font-family: 'Work Sans', sans-serif;
 }
-
-body {
-    background-color: #eee;
-    font-size: 12pt
+/*Links in Participation paragraph*/
+.participation a:link {
+    text-decoration: none;
+    color: #E23045;
 }
+/*Links in Participation paragraph*/
+.participation a:visited {
+    color: #E23045;
+}
+footer {
+    display: inline
+    margin-bottom: 825px;
+    margin-left: 400px;
+    box-sizing: border-box;
+}
+footer a{
+    border:solid;
+    padding:2px;
+    border-color: #998D74;
+    border-radius: 2px;
+    background-color: #998D74;
+    box-shadow: 10px 15px #E6D4AF;
+    text-decoration: none;
+    color: #FFF6E0;
+}
+/*Made the resources text disappear*/
+.resources {
+    display: none;
+    text-decoration: none;
+}
+/*From here down is for the resource buttons on the right of the page*/
+aside {
+    text-align: center;
+    vertical-align: top;
+    horiz-align: right;
+    display: inline-block;
+    margin-top: -1050px;
+    margin-bottom: 80px;
+    margin-right: 1px;
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+aside li {
+    vertical-align: top;
+    border: solid red;
+    background-color: #E23045;
+    border-width: 1px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 100px;
+    padding: 10px;
+    box-shadow: 20px 10px #FFB894;
+    width: 225px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #FCDFCE;
+}
+
 
 
 
