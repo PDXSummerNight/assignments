@@ -1,3 +1,4 @@
+import unittest
 from search import Searches
 
 class LinearSearchTest(unittest.TestCase):
