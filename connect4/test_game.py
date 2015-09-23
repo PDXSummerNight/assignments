@@ -19,10 +19,16 @@ class IsBoardFullTest(unittest.TestCase):
         matrix = [[1, 1, 2, 2], [2, 1, 2, 1]]
         is_full = self.board.is_board_full(matrix)
 
-        self.assertTrue(is_full, "Full board check returned not full")
+        self.assertTrue(is_full, "Full board returned not full")
 
     def test_is_board_full_empty(self):
-        pass
+        matrix = [[0, 0, 0, 0], [0, 0, 0, 0]]
+        is_full = self.board.is_board_full(matrix)
+
+        self.assertFalse(is_full, "Empty board returned full")
 
     def test_is_board_full_midgame(self):
-        pass
+        matrix = [[1, 1, 2, 2], [2, 1, 2, 0]]
+        is_full = self.board.is_board_full(matrix)
+
+        self.assertFalse(is_full, "Board with empty space returned full")
