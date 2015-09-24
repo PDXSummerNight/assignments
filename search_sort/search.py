@@ -19,9 +19,9 @@ class Searches:
 	def binary(self, list, target):
 		# List is sorted
 		min_index = 0
-		max_index = int(len(list) - 1)
+		max_index = len(list) - 1
 		while min_index <= max_index:
-			midpoint = int((min_index + max_index) / 2)
+			midpoint = ((max_index - min_index) // 2) + min_index # integer division
 			if target == list[midpoint]:
 				return midpoint
 			elif target < list[midpoint]:
