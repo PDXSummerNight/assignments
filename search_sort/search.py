@@ -12,7 +12,7 @@ class Searches:
         min = 0
         max = len(list) - 1
         while max >= min:
-            mid = (max + min) / 2
+            mid = ((max - min) // 2) + min
             if list[mid] == target:
                 return mid
             elif list[mid] < target:
@@ -21,3 +21,4 @@ class Searches:
             else:
                 # move midpoint to lower/left half
                 max = mid - 1
+        return -1
