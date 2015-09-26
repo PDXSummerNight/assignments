@@ -34,14 +34,14 @@ class BinarySearchTest(unittest.TestCase):
         del self.xs
         del self.search
 
-    def test_linear_search_not_found(self):
+    def test_binary_search_not_found(self):
         self.assertEqual(self.search.binary(self.xs, 20), -1)
 
-    def test_linear_search_latter_end(self):
-        self.assertEqual(self.search.linear(self.xs, 37), 10)
+    def test_binary_search_latter_end(self):
+        self.assertEqual(self.search.binary(self.xs, 37), 10)
 
-    def test_linear_search_beginning(self):
-        self.assertEqual(self.search.linear(self.xs, 2), 0)
+    def test_binary_search_beginning(self):
+        self.assertEqual(self.search.binary(self.xs, 2), 0)
 
-    def test_linear_search_middle(self):
-        self.assertEqual(self.search.linear(self.xs, 23), 7)
+    def test_binary_search_middle(self):
+        self.assertEqual(self.search.binary(self.xs, 23), 7)
